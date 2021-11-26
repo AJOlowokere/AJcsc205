@@ -6,7 +6,7 @@
 int grade = 
 80;
 
-void *myThreadAddd ( void * vargp)
+void *myThreadAdd ( void * vargp)
 {
 	int *myid = (int *) vargp;
 	static int age = 17;
