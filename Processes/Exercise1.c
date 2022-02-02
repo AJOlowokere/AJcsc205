@@ -9,7 +9,7 @@ int main()
 	printf("This is the main() program \n");
 	printf("I would like to know the PID and PPID's information\n");
 	mypid = getpid();
-	myppid + getppid();
+	myppid = getppid();
 	printf("The process ID is %d\n", mypid);
 	printf("The parent process ID is %d\n" , myppid);
 	return 0;
